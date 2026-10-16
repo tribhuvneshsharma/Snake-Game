@@ -1,6 +1,7 @@
 /*******************************************************************************************
 *
-*   PROJECT: Classic Snake Game (Deterministic Grid-Based Implementation)
+*   PROJECT:     Classic Snake Game (Deterministic Grid-Based Implementation)
+*   AUTHOR:      Tribhuvnesh Sharma
 *   LANGUAGE:    C (C99 Standard)
 *   FRAMEWORK:   Raylib (v6.2)
 *

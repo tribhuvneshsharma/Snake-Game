@@ -113,8 +113,7 @@ This repository includes architectural documentation:
 
 ---
 
-## 👥 Authors
+## 👤 Author
 
-* **Team Members**:
-  - Tribhuvnesh Sharma
+* **Tribhuvnesh Sharma** ([@tribhuvneshsharma](https://github.com/tribhuvneshsharma))
 
