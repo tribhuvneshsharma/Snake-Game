@@ -1,0 +1,8 @@
+# Executables and build artifacts
+*.exe
+*.o
+*.obj
+
+# System generated and temporary files
+.system_generated/
+*.log

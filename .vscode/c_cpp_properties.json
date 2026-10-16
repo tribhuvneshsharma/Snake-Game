@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "MinGW",
+            "compilerPath": "C:\\Users\\Dell\\vimfiles\\compiler\\gcc-15.1.0-gdb-16.3.90.20250511-binutils-2.44-mingw-w64-v12.0.0-ucrt\\bin\\x86_64-w64-mingw32-gcc.exe",
+            "cStandard": "c99",
+            "includePath": [
+                "${workspaceFolder}\\raylib\\raylib-6.2_win64_mingw-w64\\include",
+                "${workspaceFolder}\\**"
+            ],
+            "defines": []
+        }
+    ],
+    "version": 4
+}

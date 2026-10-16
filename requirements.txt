@@ -1,0 +1,37 @@
+# ==============================================================================
+# Snake in C (raylib) - Project Requirements & Dependencies
+# ==============================================================================
+
+# 1. Operating System
+# --------------------
+# Supported OS: Windows 10 / Windows 11 (64-bit architecture recommended)
+# Architecture: x86_64 / AMD64 (or 32-bit using the win32 library variant)
+
+# 2. Runtime Requirements (To run snake.exe directly)
+# ----------------------------------------------------
+# - raylib.dll (version 5.0 or 6.2 - bundled in project root)
+# - Microsoft Universal C Runtime (api-ms-win-crt-*) / ucrtbase.dll
+# - Windows OpenGL 3.3 Core Profile driver (or compatibility context)
+# - Windows System Libraries:
+#     * opengl32.dll
+#     * gdi32.dll
+#     * winmm.dll
+#     * kernel32.dll
+
+# 3. Build & Compiler Toolchain (To compile from snake.c)
+# -------------------------------------------------------
+# - C Compiler: MinGW-w64 GCC (version 9.0 or higher recommended, tested on GCC 15.1.0)
+# - C Standard: C99 (-std=c99) or higher
+# - Static/Dynamic Library: raylib 6.2 for MinGW-w64
+#     * Header files: raylib.h, raymath.h, rlgl.h (bundled in raylib/)
+#     * Library archives: libraylibdll.a (dynamic) or libraylib.a (static)
+# - Linker Flags:
+#     * Dynamic: -lraylibdll -lopengl32 -lgdi32 -lwinmm
+#     * Static:  -lraylib -lopengl32 -lgdi32 -lwinmm -lpthread
+
+# 4. Hardware Requirements
+# -------------------------
+# - Display Resolution: 1024x768 minimum (Native game resolution: 1000x600 pixels)
+# - Input Device: Standard Keyboard (Arrow keys, Enter, P, Esc)
+# - GPU: Any graphics card or integrated GPU supporting OpenGL 1.1+ (OpenGL 3.3 recommended)
+

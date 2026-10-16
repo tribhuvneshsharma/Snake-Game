@@ -1,0 +1,9 @@
+{
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": false,
+    "code-runner.executorMap": {
+        "c": ".\\run.ps1"
+    }
+}
