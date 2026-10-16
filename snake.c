@@ -1,9 +1,6 @@
 /*******************************************************************************************
 *
 *   PROJECT: Classic Snake Game (Deterministic Grid-Based Implementation)
-*   COURSE:  CS1101 Mini Project - Game Development
-*   INSTITUTION: Indian Institute of Technology Patna (IIT Patna)
-*   SUPERVISOR:  Prof. Jimson Mathew
 *   LANGUAGE:    C (C99 Standard)
 *   FRAMEWORK:   Raylib (v6.2)
 *

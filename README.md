@@ -2,8 +2,6 @@
 
 A high-performance, grid-based implementation of the classic **Snake** game written in **C (C99)** utilizing the **raylib** graphics and window management library.
 
-Developed as part of the **CS1101 Mini Project: Game Development** at **Indian Institute of Technology Patna (IIT Patna)** under the supervision of **Prof. Jimson Mathew**.
-
 ---
 
 ## 🎮 Quick Start (Play Immediately)
@@ -100,37 +98,24 @@ Snake Game/
 │   │   ├── include/               # raylib.h, raymath.h, rlgl.h
 │   │   └── lib/                   # libraylib.a, libraylibdll.a, raylib.dll
 │   └── raylib-6.2_win32_mingw-w64/
-└── Reports/
-    ├── An Architectural Analysis of a Grid-Based Game Implementation_ 'Snake' in C and raylib.pdf  # Comprehensive 22-page architectural report
-    ├── final report C.pdf                                                                          # Typed project report
-    └── cs game report snake project.pdf                                                            # Submitted handwritten project report
+├── Architectural Analysis and Implementation of Classic Snake in C & Raylib.pdf  # Architectural analysis report
+└── snake.c                        # Full C99 game source code
 ```
 
 ---
 
-## 📑 Project Reports Included
+## 📑 Project Report Included
 
-This directory includes all relevant project documentation:
+This repository includes architectural documentation:
 
-1. **`An Architectural Analysis of a Grid-Based Game Implementation_ 'Snake' in C and raylib.pdf`** *(Best Report)*:
-   - 22 pages, 4,900+ words.
-   - Comprehensive analysis covering architectural design, C99 stack rationale, game loop mechanisms, FSM design, timing models, Big-O data structure comparison (static arrays vs. linked lists vs. circular buffers), collision systems, and 96 cited academic and technical references.
-2. **`final report C.pdf`**:
-   - 12 pages.
-   - High-level design document and project report explaining core mechanics and raylib library integration.
-3. **`cs game report snake project.pdf`**:
-   - 14 pages.
-   - Official handwritten project report and submission copy for IIT Patna.
+* **`Architectural Analysis and Implementation of Classic Snake in C & Raylib.pdf`**:
+  - Comprehensive analysis covering architectural design, C99 stack rationale, game loop mechanisms, FSM design, timing models, data structure evaluation, and collision systems.
 
 ---
 
-## 👥 Credits
+## 👥 Authors
 
-* **Course**: CS1101 Mini Project — Theme: Game Development
-* **Institution**: Indian Institute of Technology Patna (IIT Patna)
-* **Instructor**: Prof. Jimson Mathew
-* **Group No**: 23
 * **Team Members**:
-  - Sonu Kumar (Roll No: `2501CE15`)
-  - Tribhuvnesh Sharma (Roll No: `2501CE07`)
+  - Sonu Kumar
+  - Tribhuvnesh Sharma
 
