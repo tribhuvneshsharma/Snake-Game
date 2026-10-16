@@ -116,6 +116,5 @@ This repository includes architectural documentation:
 ## 👥 Authors
 
 * **Team Members**:
-  - Sonu Kumar
   - Tribhuvnesh Sharma
 
